@@ -1,9 +1,35 @@
+= ABOUT =
 This program downloads the whole webcomic archive from usefriendly.org, including nag strips etc.
 Use in case you (like me) want to keep a local copy in case the site goes down or whatever.
 
-NOTA BENE: J.D. Frazer aka Illiad, the author of UserFriendly, says in the FAQ that he is firmly
-opposed to using such programs and even threatens legal action and ban (if you're a paying
-member). Consult your lawyer if you need to before actually using this program to verify if
-it indeed constitutes a copyright infringement or it is a case of fair use.
+Note that J.D. Frazer aka Illiad, the author of UserFriendly, says in the FAQ (quoted below)
+that he is firmly opposed (or may be not, read it and decide for yourself) to using such programs
+and even threatens legal action. Consult your lawyer if you need to before actually using
+this program to verify if it indeed constitutes a copyright infringement or it is a case of fair use.
 
-P.S. Illiad - best of luck in your personal affairs and good health to you and your relatives.
+
+= QUOTE FROM http://www.userfriendly.org/faq/ =
+Q. Is it okay if I 'webscrape' or pull down the comic with a script?
+A. Such programs that allow a user to view comics owned by User Friendly.Org are unauthorized; 
+and such activities constitute copyright infringement, unfair competition and trademark 
+infringement, rendering the owner and/or user of such programs liable for damages. In short, no.
+
+Q. What if I'm a paid member?
+A. The answer is still no -- unless the only thing you do is pull down the current strip. No
+going back into the archives and hammering the server. Doing that will get you blackholed,
+paying member or not. If you aren't a paid member and you pull down the current strip please
+pull down the ads as well. The concept here is that of a two-way street.
+
+
+= AUTHOR =
+David Parunakian aka 'rumith' (C) 2012. See LICENSE file for licensing info
+
+
+= TODO =
+I still haven't figured out how to write a Python scraper for Google AdSense ads as requested
+by Illiad. Any help would be welcome.
+
+
+= P.S. =
+Illiad - best of luck in your personal affairs and good health to you and your relatives.
+And I do hope that quoting the FAQ doesn't constitute a copyright infringement, hmph.
