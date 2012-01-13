@@ -21,6 +21,10 @@ while dt < datetime.now():
     f = urlopen(pageurl + id).read()
     ifrom = f.find(fromstr) + len(fromstr)
     url = f[ifrom: f.find(tostr, ifrom + 1)]
+    if url == 'error':
+      print("Strip %s (%s) doesn't exist" % (pageurl, str(dt)))
+      dt += delta
+      continue
     ext = url[url.rfind("."):]
     f = open("%s/%s%s" % (dt.year, id, ext), "wb")
     f.write(urlopen(url).read())
