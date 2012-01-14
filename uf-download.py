@@ -24,6 +24,7 @@ def download_comic(dt):
       return True
     ext = url[url.rfind("."):]
 
+    os.chdir(os.path.dirname(__file__))
     path = "%d" % dt.year
     if not os.path.exists(path) or (os.path.exists(path) and not os.path.isdir(path)):
       try:
