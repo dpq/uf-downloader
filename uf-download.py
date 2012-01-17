@@ -16,7 +16,13 @@ import os.path
 def download_comic(dt):
   try:
     id = str(dt.date()).replace("-", "")
-    f = urlopen(pageurl + id).read()
+    while True:
+      try:
+        f = urlopen(pageurl + id).read()
+        break
+      except:
+        time.sleep(60)
+        pass
     ifrom = f.find(fromstr) + len(fromstr)
     url = f[ifrom: f.find(tostr, ifrom + 1)]
     if url == 'error':
