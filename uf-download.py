@@ -6,7 +6,9 @@ import time
 import random
 import httplib
 
-pageurl = 'http://ars.userfriendly.org/cartoons/?id='
+#pageurl = 'http://ars.userfriendly.org/cartoons/?id='
+# Now that Userfriendly is offline, the cartoonarchive only exists on archive.org
+pageurl = 'https://web.archive.org/web/20220225091531/http://ars.userfriendly.org/cartoons/?id='
 fromstr = '<img border="0" src="'
 tostr = '"'
 
